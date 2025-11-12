@@ -1,0 +1,19 @@
+DNA Assembly from Random Samples — Report
+
+Provided sequence length: 2316 nt
+Random reads: 2000
+Read length range: 100–150 bases
+Minimum overlap (k): 20 bases
+Assembled length: 233703 nt
+
+Reconstruction check:
+- Exact match with original: False
+- Assembled contains original: False
+- Original contains assembled: False
+
+Main issue with this algorithmic approach:
+Even with 2000 reads of 100–150 bp from the original sequence, overlaps are frequently
+ambiguous in repetitive regions and some positions may lack sufficient overlapping coverage.
+A greedy, local-overlap strategy makes irreversible choices, which can misjoin or fragment contigs.
+Robust assembly typically relies on coverage-aware, graph-based methods (de Bruijn/overlap graphs)
+with error models; this simple greedy approach is not reliable for exact reconstruction.

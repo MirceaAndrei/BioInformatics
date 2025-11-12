@@ -1,0 +1,46 @@
+VIRAL GENOME ASSEMBLY ANALYSIS
+
+POINT DIFFERENCES EXPLAINED:
+
+NC_001802.1: GC=42.1%, Time=5.8ms, Len=9,181bp
+  - SHORT genome drives time
+  - GC% has NO direct effect
+
+NC_001357.1: GC=40.4%, Time=6.8ms, Len=7,857bp
+  - SHORT genome drives time
+  - GC% has NO direct effect
+
+NC_001526.4: GC=36.5%, Time=9.3ms, Len=7,906bp
+  - SHORT genome drives time
+  - GC% has NO direct effect
+
+NC_007605.1: GC=59.5%, Time=6.0ms, Len=171,823bp
+  - LONG genome drives time
+  - GC% has NO direct effect
+
+NC_001806.2: GC=68.3%, Time=5.8ms, Len=152,222bp
+  - LONG genome drives time
+  - GC% has NO direct effect
+
+NC_001348.1: GC=46.0%, Time=6.2ms, Len=124,884bp
+  - LONG genome drives time
+  - GC% has NO direct effect
+
+NC_001477.1: GC=46.7%, Time=99.5ms, Len=10,735bp
+  - SHORT genome drives time
+  - GC% has NO direct effect
+
+NC_002382.1: GC=28.2%, Time=6.7ms, Len=11,659bp
+  - SHORT genome drives time
+  - GC% has NO direct effect
+
+NC_001803.1: GC=33.2%, Time=7.4ms, Len=15,191bp
+  - SHORT genome drives time
+  - GC% has NO direct effect
+
+NC_004102.1: GC=58.2%, Time=5.5ms, Len=9,646bp
+  - SHORT genome drives time
+  - GC% has NO direct effect
+
+CONCLUSION: Assembly time depends on genome length, NOT GC content.
+Large DNA viruses (EBV, HSV) take longer than small RNA viruses (HIV, Polio).
